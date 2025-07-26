@@ -17,9 +17,9 @@ function App() {
                 <p className="text-sm text-slate-600">Professional Community Services</p>
               </div>
             </div>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+            {/* <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
@@ -218,9 +218,9 @@ function App() {
                 </div>
               </div>
               
-              <button className="w-full mt-6 bg-orange-600 hover:bg-orange-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
+              {/* <button className="w-full mt-6 bg-orange-600 hover:bg-orange-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
                 Select Plan
-              </button>
+              </button> */}
             </div>
 
             {/* Community Management */}
@@ -252,9 +252,9 @@ function App() {
                 </li>
               </ul>
               
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
+              {/* <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
                 Select Plan
-              </button>
+              </button> */}
             </div>
 
             {/* Press Release */}
@@ -280,9 +280,9 @@ function App() {
                 </li>
               </ul>
               
-              <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
+              {/* <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 px-6 rounded-lg font-medium transition-colors duration-200">
                 Get Custom Quote
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -297,14 +297,17 @@ function App() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-colors duration-200">
+            {/* <button className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-colors duration-200">
               <Phone className="w-5 h-5 mr-2" />
               Schedule a Call
-            </button>
-            <button className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-lg font-medium transition-colors duration-200">
+            </button> */}
+            <a href="http://t.me/danmakleealt">
+              <button className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-lg font-medium transition-colors duration-200">
               <Mail className="w-5 h-5 mr-2" />
               Send Message
             </button>
+            </a>
+            
           </div>
         </div>
       </section>
